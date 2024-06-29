@@ -8,6 +8,7 @@ This project is a management system that collects user-entered data and sends it
 The project was developed with contributors from:
 
 -**Lead Developer**: [Pierpaolo Giangravè](https://github.com/Pierpyg)
+
 -**Contributors**:
     -[Tommaso Lacalamita](https://github.com/tommlak)
     -[Vincenzo Sarrica](https://github.com/theblackster)
