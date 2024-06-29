@@ -1,0 +1,386 @@
+/* Global style */
+body {
+    display: inline-block;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+caption {
+    background-color: #00aacc;
+    color: #ddd;
+    padding: 2vh 1vw;
+}
+
+/* Order Tag*/
+.tag {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Tag style*/
+.tag button {
+    display: block;
+    margin: 20px auto;
+    padding: 12px 24px;
+    background-color: #00aacc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/*day of arrival*/
+#arrivo {
+    display: flex;
+    justify-content: space-around;
+    background-color: #00aacc;
+    color: #ddd;
+}
+
+
+
+#data {
+    border-radius: 5px;
+    border-color: #00aaff;
+    font-size: 12pt;
+}
+
+/* Style of headers */
+h1 {
+    text-align: center;
+    color: #fff;
+    /* width: 100vw; */
+    font-size: 15pt;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    /* width: 100vw; */
+    font-size: 12pt;
+    margin: 8px 20px;
+}
+
+#rosso {
+    color: red;
+    font-size: x-large;
+}
+
+/* Table style */
+.line {
+    display: inline-block;
+
+}
+
+#asterisco {
+    text-align: center;
+}
+
+#italico {
+    font-style: italic;
+}
+
+#line1,
+#line2 {
+    display: flex;
+    gap: 20px;
+}
+
+.table {
+    /* display: inline-table; */
+    width: 100%;
+}
+
+td {
+    border-top: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #b8e1e5;
+}
+
+.c {
+    text-align: end;
+}
+
+table {
+    width: 100%;
+}
+
+.number {
+    width: 45px;
+    border-radius: 4px;
+    background-color: #0000;
+}
+
+
+/* Footer */
+footer div {
+    margin: 4vw 0;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.note {
+    display: flex;
+    align-items: baseline;
+    margin: 20px auto;
+    padding: 20px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+#invia {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    padding: 12px 24px;
+    background-color: #00aacc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+
+    
+    .tag button,
+    .buttonInvio,
+    .buttonInvioMenu,
+    #inviaButton {
+        padding: 10px 20px;
+        
+    }
+
+    body {
+        width: 100%;
+    }
+
+    #line1,
+    #line2 {
+        display: block;
+    }
+
+    h1,
+    h2 {
+        font-size: 90%;
+        
+    }
+
+    .table {
+        width: 100%;
+        
+    }
+
+    body {
+        width: 100%;
+    }
+
+    footer div,
+    #arrivo {
+        flex-direction: column;
+        width: 100%;
+        
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    .tag {
+        flex-direction: column;  
+        align-items: center;     
+        width: 100%;             
+        margin: 0 auto; }         
+    .tag button {
+        width: 90%;              
+        margin: 10px auto;      
+        padding: 10px 20px;}
+
+    .yog {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #line1,
+    #line2 {
+        display: block;
+    }
+
+    #form1,
+    #form2 {
+        display: bl;
+    }
+
+    footer div,
+    #arrivo {
+        flex-direction: column;
+        width: 100%;
+        
+    }
+
+    .table {
+        width: 100%;
+        
+    }
+
+    body {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+    .tag {
+        flex-direction: column;  
+        align-items: center;     
+        width: 100%;             
+        margin: 0 auto; }         
+    .tag button {
+        width: 90%;              
+        margin: 10px auto;      
+        padding: 10px 20px;}
+
+    #line1,
+    #line2 {
+        display: block;
+    }
+
+    footer div,
+    #arrivo {
+        flex-direction: column;
+        width: 100%;
+        
+    }
+
+    h1,
+    h2 {
+        font-size: 80%;
+        
+    }
+
+    
+    input[type="date"],
+    input[type="text"],
+    .buttonInvio,
+    .buttonInvioMenu,
+    #inviaButton {
+        font-size: 80%;
+        padding: 8px 16px;
+        
+    }
+
+    .table {
+        font-size: 80%;
+        width: 100%;
+        
+    }
+
+    body {
+        width: 100%;
+    }
+
+    
+    @media only screen and (max-width: 640px) {
+
+        td,
+        th {
+            padding: 6px;
+            font-size: 10px;
+        }
+
+        input[type="number"],
+        input[type="text"],
+        input[type="date"] {
+            font-size: 10px;
+            padding: 4px;
+            max-width: 100%;
+        }
+
+        .number {
+            width: 100%;
+        }
+    }
+
+
+
+    @media only screen and (max-width: 435px) {
+
+        td,
+        th {
+            padding: 4px;
+            font-size: 8px;
+        }
+
+        input[type="number"],
+        input[type="text"],
+        input[type="date"] {
+            font-size: 8px;
+            padding: 3px;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        .tag {
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .tag button {
+            width: 90%;
+            margin: 10px auto;
+            padding: 10px 20px;
+        }
+    }
+}
+.tables-container {
+    display: flex;
+    flex-wrap: nowrap; 
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.tables-container table {
+    margin: 10px;
+    flex: 1 0 150px; 
+    max-width: 250px; 
+    width: auto; 
+    border-collapse: collapse; 
+}
+
+
+.tables-container input {
+    width: 100%; 
+    box-sizing: border-box; 
+    padding: 8px; 
+}
+
+
+@media (max-width: 768px) {
+    .tables-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}@media (max-width: 768px) {
+    .tables-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tables-container table {
+        flex: 0 0 100%; 
+    }}

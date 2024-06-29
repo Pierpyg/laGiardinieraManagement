@@ -1,0 +1,88 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 5px;
+    padding: 5px;
+}
+
+header {
+    text-align: center;
+}
+
+button {
+    background-color:rgb(26, 180, 211);
+    border: 2px solid rgb(0, 0, 247);
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.button {
+    background-color:rgb(26, 180, 211);
+    border: 2px solid rgb(0, 0, 247);
+    border-radius: 3px;
+    padding: 10px;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    overflow-x: auto;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    margin-top: 20px; 
+    width: 100%;      
+}
+
+
+#tabella1 th {
+    border-top: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+    width: 100%;
+    background-color: #00aacc;
+    color: white;
+}
+
+
+#tabella1 td {
+    border-top: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #b8e1e5;
+}
+
+.spazio {
+    background-color: white;
+}
+
+#aziendaMargin {
+    border-top: 0px;
+}
+
+
+#tabella2 th {
+    border-top: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    background-color: #00aacc;
+    color: white;
+}
+
+
+
+#tabella2 td {
+    border-top: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}

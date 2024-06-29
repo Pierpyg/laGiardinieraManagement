@@ -1,0 +1,23 @@
+CREATE TABLE yogurtorder (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    conferma_ordine_pv VARCHAR(255),
+    n_ordine VARCHAR(255),
+    cod_cli VARCHAR(255),
+    giorno_arrivo ENUM('LUN', 'MAR', 'MER', 'GIO', 'VEN', 'SAB', 'DOM'),
+    data_arrivo DATE,
+    ora TIME,
+    carico VARCHAR(255),
+    tot_mozz_kg DOUBLE,
+    categoria VARCHAR(255),
+    nome_prodotto VARCHAR(255),
+    kg INT,
+    quantita INT,
+    f_resp_cons_1 VARCHAR(255),
+    f_autista VARCHAR(255),
+    note TEXT,
+    f_uff_vend VARCHAR(255),
+    apertura_ord VARCHAR(255),
+    f_resp_cons_2 VARCHAR(255),
+    f_autista_2 VARCHAR(255),
+    chiusura_ord VARCHAR(255)
+);
